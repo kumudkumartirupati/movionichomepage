@@ -1,0 +1,95 @@
+header, footer{	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0
+
+}
+header{	background-color:#1d1d1d;
+	color:#fff;
+	height:45px;
+	font-size:35px;
+	position:fixed;
+	z-index:1000;
+	display: block;
+	width:inherit;
+	box-shadow: 0px 0px 20px 0px #000;
+	background-color: rgba(0, 0, 0, .4);
+	
+}
+footer{	
+	color:#fff;
+	height:35px;
+	font-size:18px;
+	margin-top:40px;
+	z-index:1000;
+	display: block;
+	width:inherit;
+	padding:10px 0 0 20px;
+	background-color: #d0d0d0;
+	box-shadow: 0px 0px 5px 0px #000;
+	color: #333;
+}
+
+@media screen and (max-width:600px){
+.topslider{
+	display:none;
+}
+.topnavshort{
+	display:block;
+	padding:10px 0 0 0;
+	text-align:center;
+	cursor:pointer;
+	font-size:25px;
+	
+}
+.topnavbar{
+	display:none;
+}
+
+}
+
+@media screen and (min-width:600px){
+.topnavshort{
+	display:none;
+}
+.topnavbar{
+	display:block;
+	padding:10px 0 0 0px;
+	cursor:pointer;
+	font-size:25px;
+	
+}
+
+}
+#topnavtitle{
+	float:left;
+	padding: 0 20px 0 20px;
+}
+.topnavleftitems{
+	float:left;
+	padding: 0 12px ;
+	color: rgba(255, 255, 255, 1);
+	font-size: 16px;
+	font-weight: 300;
+	height: 45px;
+}
+.topnavleftitems:hover{
+	color: rgba(255, 255, 255, 1);
+}
+
+.topnavrightitems{
+	float:right;
+	padding: 0 20px ;
+	color: rgba(255, 255, 255, 1);
+	font-size: 14px;
+	font-weight: 300;
+	height: 45px;
+}
+.topnavrightitems:hover{
+	color: rgba(255, 255, 255, 1);
+	text-decoration: underline;
+}
+.topnavleft a, .topnavright a{
+	text-decoration: none;
+}
+
